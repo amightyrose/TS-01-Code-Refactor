@@ -7,6 +7,7 @@
 }
 
 
+/* Added the 'color' and 'font-family' attributes to this rule-set and removed them from most of the others */
 body {
 
     background-color: #d9dcd6;
@@ -32,21 +33,18 @@ p {
 }
 
 
-header, footer {
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-
+/* Renamed this rule-set from '.header' to 'header' */
 header {
 
     padding: 20px;
     background-color: #2a607c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }    
 
 
+/* Renamed this rule-set from '.header h1' to 'h1' */
 h1 {
     
     display: inline-block;
@@ -55,6 +53,7 @@ h1 {
 }    
 
 
+/* Renamed this rule-set from '.header h1 .seo' to 'span' */
 span {
 
     color: #d9dcd6;
@@ -62,6 +61,7 @@ span {
 }    
 
 
+/* Renamed this rule-set from '.header div' to 'nav' */
 nav {
     
     padding-top: 15px;
@@ -72,6 +72,7 @@ nav {
 }    
 
 
+/* Renamed this rule-set from '.header div ul' to 'ul' */
 ul {
 
     list-style-type: none;
@@ -79,6 +80,7 @@ ul {
 }    
 
 
+/* Renamed this rule-set from  '.header div ul li' to 'li' */
 li {
 
     display: inline-block;
@@ -97,6 +99,7 @@ li {
 }
 
 
+/* Renamed this rule-set from '.content' to 'main' */
 main {
 
     width: 75%;
@@ -106,6 +109,7 @@ main {
 }
 
 
+/* Combined attributes from the '.search-engine-optimization/.online-reputation-management/.social-media-marketing' rule-sets into this 'main section' rule-set */
 main section {
     
     margin-bottom: 20px;
@@ -116,6 +120,7 @@ main section {
 }
 
 
+/* Combined attributes from the '.search-engine-optimization img/.online-reputation-management img/.social-media-marketing img' rule-sets into this 'main img' rule-set */
 main img {
     
     max-height: 200px;
@@ -123,6 +128,7 @@ main img {
 }
 
 
+/* Combined attributes from the '.search-engine-optimization h2/.online-reputation-management h2/.social-media-marketing h2' rule-sets into this 'main h2' rule-set */
 main h2 {
     
     margin-bottom: 20px;
@@ -131,6 +137,7 @@ main h2 {
 }
 
 
+/* Renamed this rule-set from '.benefits' to 'aside' */
 aside {
 
     margin-right: 20px;
@@ -144,6 +151,7 @@ aside {
 }
 
 
+/* Combined attributes from the '.benefit-lead/.benefit-brand/.benefit-cost' rule-sets into this 'aside section' rule-set */
 aside section {
 
     margin-bottom: 32px;
@@ -151,6 +159,7 @@ aside section {
 }
 
 
+/* Combined attributes from the '.benefit-lead h3/.benefit-brand h3/.benefit-cost h3' rule-sets into this 'aside h3' rule-set */
 aside h3 {
 
     margin-bottom: 10px;
@@ -159,6 +168,7 @@ aside h3 {
 }
 
 
+/* Combined attributes from the '.benefit-lead img/.benefit-brand img/.benefit-cost img' rule-sets into this 'aside img' rule-set */
 aside img {
     display: block;
     margin: 10px auto;
@@ -166,6 +176,7 @@ aside img {
 }
 
 
+/* Renamed this rule-set from '.footer' to 'footer' */
 footer {
 
     padding: 30px;
@@ -177,6 +188,7 @@ footer {
 }
 
 
+/* Renamed this rule-set from '.footer h2' to 'footer h2' */
 footer h2 {
 
     font-size: 20px;
@@ -185,13 +197,17 @@ footer h2 {
 
 
 .float-left {
+
     float: left;
     margin-right: 25px;
+
 }    
 
-.float-right {
-float: right;
-margin-left: 25px;
-}
 
+.float-right {
+    
+    float: right;
+    margin-left: 25px;
+
+}
 

@@ -5,13 +5,14 @@ This file lists the changes that were made to the index.html and style.css docum
 
 ## index.html
 
-Replaced div elements with the following semantic html elements:
+- Added a more descriptive title to the `title` tag
 
-- `header` and `footer`
-- `nav` for top navigation bar
-- `main` element for central content
-- `aside` element for sections on the right hand side
-- `section` elements inside the `main` and `aside` elements
+- Replaced div elements with the following semantic html elements:
+  - `header` and `footer`
+  - `nav` for top navigation bar
+  - `main` element for central content
+  - `aside` element for sections on the right hand side
+  - `section` elements inside the `main` and `aside` elements
 
 
 
@@ -19,7 +20,6 @@ Replaced div elements with the following semantic html elements:
 
 - moved font color into the `body` selector because most of the text on the page is white, removed other references except from the `a` rule-set
 - added `font-family` declaration into the `body` rule-set and removed other references, covers most of the text
-- combined `header` and `footer` font-family into one rule-set
 - changed the `.header h1` rule-set to `h1`
 - changed `.header h1 .seo` to `span`
 - changed `.header div` to `nav`
