@@ -3,7 +3,7 @@
 
 The aim of this assignment is to refactor the code for the Horiseon Social Solution Services website in order to:
 * improve the accessibility of the webpage
-* improve the efficency and semantic structure of the code
+* improve the efficiency and semantic structure of the code
 
 ## Solution
 Comments are included in the *index.html* and *style.css* files explaining the changes that were made. A consolidated list is also included in the **_changes.md_** file.
