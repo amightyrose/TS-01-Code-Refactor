@@ -1,7 +1,7 @@
 # TS-01-Code-Refactor
-### Homework assignment 01 - refactor HTML and CSS code
+### Refactor HTML and CSS code
 
-The aim of this assignment is to refactor the code for the Horiseon Social Solution Services website in order to:
+The aim of this project is to refactor the code for the Horiseon Social Solution Services website in order to:
 * improve the accessibility of the webpage
 * improve the efficiency and semantic structure of the code
 
